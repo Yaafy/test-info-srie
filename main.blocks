@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="N;Mo]be[Dd@__CSMeyn%" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="$MzQW54}|SZHvVYoXUf8"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . # # 
+        . . # # #
+        `</field><next><block type="device_pause" id="%w,+SN~,:/IX)HWMr+lz"><value name="pause"><shadow type="timePicker" id="7~#rWrs-AIdACa1(]y|b"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="A-!SzCAA@./4@*h^e={A"><field name="LEDS">`
+        . . . # # 
+        . . # # # 
+        . # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="vp4+XF7ha.?`u!-qS@R^"><value name="pause"><shadow type="timePicker" id="y1|g;DG,a#o!Z436,nUB"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="2w(FFY]]!**Okk?Uq@rZ"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="$.:C_|FpvUL.1GDWrJz|"><value name="pause"><shadow type="timePicker" id="Q{/[i#R]IEodKI[KEjG)"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="dKnNW*]5]}hff($dl?98"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="T{Z#zzE8Z3u`6S4cUDY2" x="400" y="35"><statement name="HANDLER"><block type="serial_writeline" id="[vBCe6{3Ri!3{o@st+?O"><value name="text"><shadow type="text" id="bX}%GvwP4+Ux){W-`3~y"><field name="TEXT">Intensite lumineuse</field></shadow></value><next><block type="serial_writenumber" id="Vv%XNpjw;(;Z0txwYJe="><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="V87M7DOv/,=-X9,pS8gm"></block></value><next><block type="serial_writeline" id="i-b%`=}`C)P2lGTc^@(/"><value name="text"><shadow type="text" id="#:qs8.hZBkRVyDbP+2x|"><field name="TEXT"></field></shadow></value><next><block type="device_pause" id="p-ab~AW)[j]Y(4X3=1p$"><value name="pause"><shadow type="timePicker" id="ra`gC{^yn59hv7[8C+k+"><field name="ms">1000</field></shadow></value><next><block type="serial_writeline" id="MmG.v/KNKbeZY;(=;}*Y"><value name="text"><shadow type="text" id="pNgiw-HwU^n7mj?-#sBY"><field name="TEXT">Temperature</field></shadow></value><next><block type="serial_writenumber" id="?)Tqg0sNe{qRr#ImWXR]"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="$)`rH@Mm7/lTE3Z4MW{i"></block></value><next><block type="serial_writeline" id="6v+^D)@|zm?q/Dr*Kr_i"><value name="text"><shadow type="text" id="`~to/n3;pcsieHR^~sN#"><field name="TEXT"></field></shadow></value><next><block type="device_pause" id="N/GZ(7XOmZ!@MIlsbG%+"><value name="pause"><shadow type="timePicker" id="ldr0CcQYkcpMDze`Bkn9"><field name="ms">1000</field></shadow></value><next><block type="serial_writeline" id="xdrUO{~w3@z|xs:$7%d|"><value name="text"><shadow type="text" id="N@/k0/9KgU?Jmq8+N1;#"><field name="TEXT">Champ magnetique</field></shadow></value><next><block type="serial_writenumber" id="co|fG0($Z+P#M!_3JThi"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_magnetic_force" id="S|/3^8J4?1vnb{X=^u$o"><field name="NAME">Dimension.X</field></block></value><next><block type="serial_writeline" id="a!M{SayeHEc*b*J9PQ@A"><value name="text"><shadow type="text" id="r]?((K2O(X}DMRdB}z~/"><field name="TEXT"></field></shadow></value><next><block type="device_pause" id="7h`Mv/BlZk(K6FBB-rNW"><value name="pause"><shadow type="timePicker" id="|Q=Wp|pa{FD8$_{{_?ju"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
